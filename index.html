@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto HTML</title>
+    <link rel="stylesheet" href="favicon.ico">
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+     <header >
+        <div>
+        <div>
+            <img src= "../Javascript/assets/images/codoacodo.png" alt="logo codo a codo" loading = "lazy" width="10%" height="5%" >
+        </div>
+        <div class="containeflex">
+            <p class="titulo">Conf. Bs. As.</p>
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar navbar-dark bg-dark"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link" href="#">La Conferencia</a>
+                      <a class="nav-link" href="#">Oradores</a>
+                      <a class="nav-link " href="#" >Lugar y Fecha</a>
+                      <a class="nav-link " href="#"">Conviértete en Orador</a>
+                      <a class="nav-link " href="#">Comprar Tickets</a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        
+        </div>
+    </div>
+    </header>
+    <main>
+        <section class="presentacion">
+            <h1 class= "titulo3">Conf Buenos Aires</h1>
+            <p class="parrafo" > Bs.As. llega por primera vez a Argentina. Un evento para compartir con <br>
+            nuestra comunidad el conocimiento y experiencia de los expertos que <br>
+            están creando el futuro de Internet. Ven a conocer a miembros del <br>
+            evento, a otros estudiantes de Codo a Codo y los oradores de primer <br>
+            nivel que tenemos para ti. ¡Te esperamos!
+            </p>
+            <button href="../Javascript/pages/Comprartickets">Comprar Tickets</button>
+            <button href="../Javascript/pages/Contacto">Quiero ser Orador</button>
+        </section>
+<h6>CONOCE A LOS</h6>
+<h2 class="titulo2">ORADORES</h2>
+        <section >
+            <table class="tabla">
+                <tr>
+                    <th>
+                        <div>
+                            <img class="contenedorImagenes" src="../Javascript/assets/images/steve.jpg" alt="Foto de Steve Jobs" loading="lazy"  >
+                            <h3>Steve Jobs</h3>
+                            <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing <br>
+                                elit. Autem fugit provident itaque eius rem possimus, <br>
+                                commodi inventore pariatur ea molestiae culpa <br>
+                                corrupti ex odit consequatur veritatis, recusandae <br>
+                                 cumque eveniet aliquam?
+                            </p>
+                        
+                        </div>
+                    </th>
+                    <th>
+            <div>
+                <img class="contenedorImagenes"src="../Javascript/assets/images/bill.jpg" alt="Foto de Bill Gates" loading="lazy"   >
+                <h3>Bill Gates</h3>
+                <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing <br>
+                    elit. Autem fugit provident itaque eius rem possimus, <br>
+                    commodi inventore pariatur ea molestiae culpa <br>
+                    corrupti ex odit consequatur veritatis, recusandae <br>
+                     cumque eveniet aliquam?
+                </p>
+            </div>
+              </th>
+      
+        <th>
+            <div>
+                <img class="contenedorImagenes" src="../Javascript/assets/images/ada.jpeg" alt="Foto de Ada Lovelace" loading="lazy" >
+                <h3>Ada Lovelace</h3>
+                <p class="p2">Lorem, ipsum dolor sit amet consectetur adipisicing <br>
+                    elit. Autem fugit provident itaque eius rem possimus, <br>
+                    commodi inventore pariatur ea molestiae culpa <br>
+                    corrupti ex odit consequatur veritatis, recusandae <br>
+                     cumque eveniet aliquam?
+                </p>
+            </div>
+        </th>
+        </tr>
+        </table>
+        </section>
+        <section class=".bgGrisOscuro">
+            <table>
+                <tr>
+                    <th>
+            <img src="../Javascript/assets/images/honolulu.jpg" alt="Imagen de honolulu" loading="lazy" width="500">
+                    </th>
+                    <th class="parrafo2">
+            <h3>Bs.As. Octubre</h3>
+            <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina en los Estados Unidos. Honolulu es la <br>
+            más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área <br>
+            urbana en la costa sureste de la isla de Ohau, la ciudad y condado de Honolulu han formado una ciudad- <br>
+            condado consolidada que cubre toda la ciudad (aproximadamente 600 Km2 de superficie).</p>
+            <a class="link" href="">Conoce Más</a>
+        </th>
+            </tr>
+        </table>
+        </section>
+        <br><br>
+      <center>
+        <div id=""formulario>
+    <h6>CONVIÉRTETE EN UN</h6>
+    <h2>ORADOR</h2>
+    <p>Anótate como orador para dar una charla ignite. ¡Cuéntanos cde qué quieres hablar!</p>
+    <section>
+        <form action="" >
+            <div>
+            <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+            <input type="text" name="Apellido" id="Apellido" placeholder="Apellido">
+        </div>
+         <div>
+            <textarea name="" id="" cols="50" rows="10">¿Sobre qué quieres hablar?</textarea>
+        </div>
+              
+        <br>
+        <div>
+            <h6>Recuerda incluir un titulo para tu charla</h6>
+        </div>
+        <div id="send">
+            <button type="submit">Enviar</button>
+       </div>
+        </form>
+    </center>
+    <div></div>
+</div>
+    </section>
+    </main>
+</body>
+<footer >
+    <div>
+        <nav class="containeflex">
+          <a class= link href="">Preguntas <br> Frecuentes</a>
+          <a class= link href="" >Contáctanos</a>
+          <a class= link href="">Prensa</a>
+          <a class= link href="">Conferencias</a>
+          <a class= link href="">Términos y <br> Condiciones</a>
+          <a class= link href="">Privacidad</a>
+          <a class= link href="">Estudiantes</a>
+        </nav>
+       </div>
+</footer>
+</html>
